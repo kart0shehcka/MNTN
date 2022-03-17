@@ -2,6 +2,11 @@
 	box-sizing: border-box;
 }
 
+img {
+	display: block;
+	max-width: 100%;
+}
+
 a {
 	text-decoration: none;
 	color: inherit;
@@ -46,7 +51,7 @@ body {
 /* Header */
 .header {
 	padding-top: 64px;
-	margin-bottom: 843px;
+	padding-bottom: 843px;
 }
 
 .logo {
